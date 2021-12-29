@@ -21,7 +21,7 @@ export const createContact = async (req, res) => {
       port: 465,
       auth: {
         user: "reactjs1994@gmail.com",
-        pass: "Fiserv@w550",
+        pass: "pwd",//enter password
       },
     });
     let mailOptions = {
